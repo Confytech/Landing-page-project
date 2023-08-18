@@ -1,0 +1,24 @@
+#homeActive{
+    color: #fff;
+    position: relative;
+   
+   }
+   #homeActive::after{
+       content: "";
+       width: 50px;
+       height: 1px;
+       border: 1px solid red ;
+       position: absolute;
+       display: inline;
+       top:25px;
+       left:3px;
+   
+       background-color: red;
+       @media (min-width:320px) and (max-width:480px) {  
+      
+        
+         
+          
+        }
+      
+   }

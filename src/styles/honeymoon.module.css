@@ -1,0 +1,127 @@
+
+.imgContainer{
+   
+    padding: 0  200px;
+    position: relative;
+    margin-top: 180px;
+    @media (min-width:320px) and (max-width:480px) {      
+      
+       margin-inline: auto
+    }
+   
+}
+.couple{
+ width: 500px;   
+ height: 700px;
+ border-top-left-radius: 50%;
+ border-top-right-radius: 50%;
+ @media (min-width:320px) and (max-width:480px) {      
+
+   width:300px;
+   height: 400px;
+   margin-left:-160px;
+   margin-bottom: 30px
+   
+ }
+}
+.circle{
+    position: absolute;
+    left: 100px;
+    @media (min-width:320px) and (max-width:480px) {      
+      
+     display:none
+     }
+}
+.circle2{
+    position: absolute;
+     top:-50px;
+    left: 250px;
+    @media (min-width:320px) and (max-width:480px) {      
+      
+        display:none
+        }
+}
+
+.circle3{
+    position: absolute;
+    bottom: 180px;
+    left: -50px;
+    @media (min-width:320px) and (max-width:480px) {      
+      
+        display:none
+        }
+}
+
+.flexRight{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    @media (min-width:320px) and (max-width:480px) {      
+      display: block ;
+      margin-inline:auto
+       
+    }
+
+}
+.title{
+   
+    color: #DF6951;
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 1.8px;
+    text-transform: uppercase   
+}
+.Subtitle{
+    color: #181E4B;
+    font-family: Volkhov;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 700;
+  
+}
+.text{
+    color: var(--black, #000);
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26p  
+}
+.viewBtn{
+    color: var(--white, #FFF);
+    text-align: center;
+    font-family: Poppins;
+    font-size: 16.716px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    border-radius: 10px;
+background: #DF6951;
+box-shadow: 0px 20px 35px 0px rgba(223, 105, 81, 0.15);
+border: none;
+margin-top: 30px;
+display: flex;
+width: 176.561px;
+height: 56.416px;
+padding: 0px 36.566px 9.403px 0px;
+justify-content: center;
+align-items: center;
+gap: 10.447px;
+flex-shrink: 0;
+cursor: pointer;
+}
+
+.RightText{
+    @media (min-width:320px) and (max-width:480px) {      
+  
+      text-align:center
+         
+      }
+}
+
+
+
+

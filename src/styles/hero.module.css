@@ -1,0 +1,103 @@
+.heroSection{
+    background-image: url('../assets/images/herobg.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;    
+    height: 100vh;
+   
+  
+    @media (min-width:320px) and (max-width:480px) {
+       padding: 0 ;
+       width:100%;
+       height:400px;
+       z-index: 30;
+        
+      }
+}
+.heroContainer{
+   
+    padding: 150px 200px;
+    @media (min-width:320px) and (max-width:480px) {
+        width: 100%;
+       padding:200px 10px ;
+        margin-top: -200px;
+       
+         
+       }
+    
+}
+.heroText{
+    color: #FFF;
+    font-family: "Poppins";
+    font-size: 59px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 68px; /* 116.071% */ 
+    width: 772px;
+    height: 236px;
+    z-index: -1;
+    /* padding: 200px 200px; */
+    @media (min-width:320px) and (max-width:480px) {
+     font-size: 20px;
+       padding: 0px;
+       height: 20px;
+        width:350px   
+         
+       }
+}
+.heroFlex{
+    padding-left: -120px;
+    width: 800.496px;
+    height: 88.455px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    border-radius: 5.224px;
+background: rgba(243, 243, 243, 0.60);
+margin-top: -30px;
+backdrop-filter: blur(17.760618209838867px);
+@media (min-width:320px) and (max-width:480px) {
+    margin-top:80px;
+    width: 300px;
+    height: 30.455px;        
+   }
+
+}
+.heroNav{
+    border-right: 2px solid #D0D0D0 ;    
+    color:#fff;
+    padding: 20px;
+    height: 20px;
+    text-align: center;
+}
+.submitBtn{
+    display: flex;
+width: 215.785px;
+padding: 12px 0px 11.924px 0px;
+justify-content: center;
+align-items: center;
+border-radius: 10px;
+background: #DF6951;
+color: #FFF;
+border: none;
+text-align: center;
+font-family: Poppins;
+font-size: 16.716px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+cursor: pointer;
+}
+.imgContainer{
+    padding-top: 10px;
+    margin-top: 0;
+    display: flex;
+    align-items: center;
+    
+    
+}
+.paragraphs{
+    margin-left: 20px;
+    color: #fff;
+}
+

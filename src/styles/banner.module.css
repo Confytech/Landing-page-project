@@ -1,0 +1,26 @@
+.banner{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background: #F7F7F7;
+    padding: 20px 0;
+    color: #F7F7F7;
+    @media (min-width:320px) and (max-width:480px) {      
+       
+    width:10px
+        
+     }
+ 
+
+}
+.res{
+      text-align: center;
+    @media (min-width:320px) and (max-width:480px) {      
+       /* display: block;
+        width:30px;
+        height: 30px;
+        padding:20px */
+            
+         }
+
+}
